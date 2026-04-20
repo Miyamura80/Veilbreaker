@@ -78,6 +78,9 @@ python-version = "3.12"
 [tool.deptry]
 ignore = ["DEP002"]
 
+[tool.uv]
+exclude-newer = "7 days"
+
 [tool.vulture]
 exclude = [
     ".venv/",
