@@ -1,7 +1,7 @@
 [project]
-name = "python-template"
+name = "veilbreaker"
 version = "0.1.0"
-description = "Add your description here"
+description = "⛓️‍💥🤖 Veilbreaker repo"
 authors = [
     { name = "Miyamura80", email = "eitomiyamura@gmail.com" }
 ]

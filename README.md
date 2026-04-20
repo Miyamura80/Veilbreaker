@@ -1,11 +1,11 @@
-# Python-Template
+# veilbreaker
 
 <p align="center">
   <img src="media/banner.png" alt="2" width="400">
 </p>
 
 <p align="center">
-<b>Opinionated Python project stack. 🔋 Batteries included. </b>
+<b>⛓️‍💥🤖 Veilbreaker repo</b>
 </p>
 
 <p align="center">
@@ -28,10 +28,6 @@
 </p>
 
 --- 
-
-<p align="center">
-  <img src="media/promo_animation.gif" alt="Python-Template features animation" width="600">
-</p>
 
 
 ## Key Features
