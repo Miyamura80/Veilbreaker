@@ -3,7 +3,7 @@ revision = 3
 requires-python = ">=3.12"
 
 [options]
-exclude-newer = "2026-04-08T12:22:06.458995Z"
+exclude-newer = "2026-04-13T10:31:27.30585Z"
 exclude-newer-span = "P7D"
 
 [[package]]
@@ -2431,85 +2431,6 @@ wheels = [
 ]
 
 [[package]]
-name = "python-template"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "deptry" },
-    { name = "dspy" },
-    { name = "google-genai" },
-    { name = "human-id" },
-    { name = "import-linter" },
-    { name = "langfuse" },
-    { name = "litellm" },
-    { name = "loguru" },
-    { name = "numpy" },
-    { name = "openfeature-sdk" },
-    { name = "pillow" },
-    { name = "pydantic" },
-    { name = "pydantic-settings" },
-    { name = "pylint" },
-    { name = "pytest" },
-    { name = "pytest-cov" },
-    { name = "pytest-env" },
-    { name = "pytest-repeat" },
-    { name = "pytest-xdist" },
-    { name = "python-dotenv" },
-    { name = "pyyaml" },
-    { name = "questionary" },
-    { name = "rich" },
-    { name = "scrubadub" },
-    { name = "tenacity" },
-    { name = "termcolor" },
-    { name = "tomli-w" },
-    { name = "ty" },
-    { name = "typer" },
-    { name = "vulture" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "pytest-check-links" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "deptry", specifier = ">=0.23.0" },
-    { name = "dspy", specifier = ">=3.1.2" },
-    { name = "google-genai", specifier = ">=1.60.0" },
-    { name = "human-id", specifier = ">=0.2.0" },
-    { name = "import-linter", specifier = ">=2.1.1" },
-    { name = "langfuse", specifier = ">=3.12.1" },
-    { name = "litellm", specifier = ">=1.59.8,<=1.82.6" },
-    { name = "loguru", specifier = ">=0.7.3" },
-    { name = "numpy", specifier = ">=2.2.2" },
-    { name = "openfeature-sdk", specifier = ">=0.7.1" },
-    { name = "pillow", specifier = ">=12.1.0" },
-    { name = "pydantic", specifier = ">=2.10.6" },
-    { name = "pydantic-settings", specifier = ">=2.7.1" },
-    { name = "pylint", specifier = ">=3.3.3" },
-    { name = "pytest", specifier = ">=8.3.4" },
-    { name = "pytest-cov", specifier = ">=7.0.0" },
-    { name = "pytest-env", specifier = ">=1.2.0" },
-    { name = "pytest-repeat", specifier = ">=0.9.3" },
-    { name = "pytest-xdist", specifier = ">=3.6.1" },
-    { name = "python-dotenv", specifier = ">=1.2.1" },
-    { name = "pyyaml", specifier = ">=6.0.3" },
-    { name = "questionary" },
-    { name = "rich", specifier = ">=14.3.1" },
-    { name = "scrubadub", specifier = ">=2.0.1" },
-    { name = "tenacity", specifier = ">=9.0.0" },
-    { name = "termcolor", specifier = ">=2.5.0" },
-    { name = "tomli-w", specifier = ">=1.0" },
-    { name = "ty", specifier = ">=0.0.14" },
-    { name = "typer" },
-    { name = "vulture", specifier = ">=2.14" },
-]
-
-[package.metadata.requires-dev]
-dev = [{ name = "pytest-check-links", specifier = ">=0.9.1" }]
-
-[[package]]
 name = "pytz"
 version = "2026.1.post1"
 source = { registry = "https://pypi.org/simple" }
@@ -3362,6 +3283,85 @@ sdist = { url = "https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6
 wheels = [
     { url = "https://files.pythonhosted.org/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl", hash = "sha256:bf272323e553dfb2e87d9bfd225ca7b0f467b919d7bbd355436d3fd37cb0acd4", size = 131584, upload-time = "2026-01-07T16:24:42.685Z" },
 ]
+
+[[package]]
+name = "veilbreaker"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "deptry" },
+    { name = "dspy" },
+    { name = "google-genai" },
+    { name = "human-id" },
+    { name = "import-linter" },
+    { name = "langfuse" },
+    { name = "litellm" },
+    { name = "loguru" },
+    { name = "numpy" },
+    { name = "openfeature-sdk" },
+    { name = "pillow" },
+    { name = "pydantic" },
+    { name = "pydantic-settings" },
+    { name = "pylint" },
+    { name = "pytest" },
+    { name = "pytest-cov" },
+    { name = "pytest-env" },
+    { name = "pytest-repeat" },
+    { name = "pytest-xdist" },
+    { name = "python-dotenv" },
+    { name = "pyyaml" },
+    { name = "questionary" },
+    { name = "rich" },
+    { name = "scrubadub" },
+    { name = "tenacity" },
+    { name = "termcolor" },
+    { name = "tomli-w" },
+    { name = "ty" },
+    { name = "typer" },
+    { name = "vulture" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest-check-links" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "deptry", specifier = ">=0.23.0" },
+    { name = "dspy", specifier = ">=3.1.2" },
+    { name = "google-genai", specifier = ">=1.60.0" },
+    { name = "human-id", specifier = ">=0.2.0" },
+    { name = "import-linter", specifier = ">=2.1.1" },
+    { name = "langfuse", specifier = ">=3.12.1" },
+    { name = "litellm", specifier = ">=1.59.8,<=1.82.6" },
+    { name = "loguru", specifier = ">=0.7.3" },
+    { name = "numpy", specifier = ">=2.2.2" },
+    { name = "openfeature-sdk", specifier = ">=0.7.1" },
+    { name = "pillow", specifier = ">=12.1.0" },
+    { name = "pydantic", specifier = ">=2.10.6" },
+    { name = "pydantic-settings", specifier = ">=2.7.1" },
+    { name = "pylint", specifier = ">=3.3.3" },
+    { name = "pytest", specifier = ">=8.3.4" },
+    { name = "pytest-cov", specifier = ">=7.0.0" },
+    { name = "pytest-env", specifier = ">=1.2.0" },
+    { name = "pytest-repeat", specifier = ">=0.9.3" },
+    { name = "pytest-xdist", specifier = ">=3.6.1" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
+    { name = "questionary" },
+    { name = "rich", specifier = ">=14.3.1" },
+    { name = "scrubadub", specifier = ">=2.0.1" },
+    { name = "tenacity", specifier = ">=9.0.0" },
+    { name = "termcolor", specifier = ">=2.5.0" },
+    { name = "tomli-w", specifier = ">=1.0" },
+    { name = "ty", specifier = ">=0.0.14" },
+    { name = "typer" },
+    { name = "vulture", specifier = ">=2.14" },
+]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest-check-links", specifier = ">=0.9.1" }]
 
 [[package]]
 name = "vulture"
