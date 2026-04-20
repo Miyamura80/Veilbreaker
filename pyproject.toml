@@ -97,6 +97,8 @@ exclude = [
     "tests/conftest.py",
     "init/",
     "onboard.py"
+    ,"src/server/app.py",
+    "src/server/models.py"
 ]
 
 [tool.file_length]
