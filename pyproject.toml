@@ -34,7 +34,7 @@ dependencies = [
     "numpy>=2.2.2",
     "typer",
     "questionary",
-    "rich>=14.3.1",
+    "rich>=15.0.0",
     "tomli-w>=1.0",
 ]
 readme = "README.md"
